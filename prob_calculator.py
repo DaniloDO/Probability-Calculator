@@ -2,8 +2,6 @@
 import copy
 import random
 
-random.seed(95)
-
 class Hat:
     def __init__(self, **kwargs):
         self.contents = []
